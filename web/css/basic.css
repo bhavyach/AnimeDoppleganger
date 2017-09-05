@@ -1,0 +1,51 @@
+/*
+    Document   : basic.css
+    Author     : joemertz
+    Source     : https://gist.github.com/joemertz/f71cd71531930c82236a
+*/
+
+body {
+    width: 600px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border-bottom: thick solid #DB6D64;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.formstyle {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.submitstyle {
+    font-size: 18px; 
+    border: 2px solid #4CFFE9; 
+    border-radius: 25px; 
+    background-color: #DB6D64; 
+    margin-top: 10px
+}
+
+img { 
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+#doppleganger_image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
